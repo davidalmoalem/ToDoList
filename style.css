@@ -1,0 +1,64 @@
+body{
+    background-color: green;
+    display: flex;
+    justify-content: center; 
+}
+
+.page{
+    width: 100vh;
+       
+}
+.heading h1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+        
+}
+.input{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    background-color: white;
+    height: 600px;
+    width: 750px;
+    border-radius: 10px;
+}
+.new__task{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: green;
+    margin-right: 100px;
+    background-color: greenyellow;
+}
+.add__button{
+    height: 45px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    
+}
+ul li span{
+    background-color: greenyellow;
+    position: absolute;
+    right: 500px;
+}
+ul li span:hover{
+    background-color: red;
+    cursor: pointer;
+}
+ul li{
+background-color: greenyellow;
+font-size: 30px;
+margin-right: 100px;
+}
